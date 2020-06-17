@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html,body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    background-color: #ffffff;
 }
+
+header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8470ff;
+    height: 5rem;
+}
+header > div {
+    font-size: 3rem;
+    color: #ffffff;
+}
+content {
+    border: 2px solid hotpink;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+section {
+    border: 2px solid blue;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type='text'] {
+    margin: 10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 2px groove  #8470ff;
+}
+input[type='password'] {
+    margin: 10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 2px groove  #8470ff;
+}
+input[type='submit'] {
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    background-color: #8470ff;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+}
+input[type='submit']:hover {
+    border: 2px groove black;
+}
+
+article {
+    margin-top: 100px;
+    padding-left: 50px;
+    border: 2px solid greenyellow;
+}
+
