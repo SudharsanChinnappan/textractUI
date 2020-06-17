@@ -91,11 +91,6 @@ export default class App extends Component {
 
   render() {
     return (
-      <header>
-      <div>
-          AWS INFOSYS DIGITAL HOUSTON
-      </div>
-      </header>
       <content>
       <section>
         <h1>Login to upload files</h1>
