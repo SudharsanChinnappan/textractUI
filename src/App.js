@@ -4,9 +4,9 @@ import { CognitoUserPool, CognitoUser, AuthenticationDetails } from 'amazon-cogn
 import axios from 'axios';
 import './index.css';
 
-const UserPoolId = 'us-east-1_Yln69eOPc';
-const ClientId = 'j6l9kpbo2glunk75ki3rkctv1';
-const ApiGatewayUrl = 'https://635duxwocl.execute-api.us-east-1.amazonaws.com/dev';
+const UserPoolId = 'us-east-1_CU5KDsqnP';
+const ClientId = '5e6u81gum3rk6c7vuvd0dc7tpa';
+const ApiGatewayUrl = 'https://svnp9xp0wd.execute-api.us-east-1.amazonaws.com/dev';
 
 const userPool = new CognitoUserPool({
   UserPoolId: UserPoolId,
