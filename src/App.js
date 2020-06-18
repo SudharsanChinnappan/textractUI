@@ -6,7 +6,7 @@ import './index.css';
 
 const UserPoolId = 'us-east-1_Yln69eOPc';
 const ClientId = 'j6l9kpbo2glunk75ki3rkctv1';
-const ApiGatewayUrl = 'https://ecds11ra8d.execute-api.us-east-1.amazonaws.com/dev';
+const ApiGatewayUrl = 'https://635duxwocl.execute-api.us-east-1.amazonaws.com/dev';
 
 const userPool = new CognitoUserPool({
   UserPoolId: UserPoolId,
